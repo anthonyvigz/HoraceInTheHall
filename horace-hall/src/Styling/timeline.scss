@@ -1,4 +1,26 @@
 .timelineBlock {
   background: #e7c983;
   height: 3000px;
+  display: flex;
+
+  .leftLine {
+    display: flex;
+    flex-direction: column;
+    height: 5000px;
+    width: 50%;
+  }
+
+  .rightLine {
+    display: flex;
+    flex-direction: column;
+    height: 5000px;
+    width: 50%;
+  }
+
+  // this is the state changing timeline
+  .theLine {
+    border-right: solid #28352e 6px;
+    border-radius: 15px;
+    width: 0;
+  }
 }

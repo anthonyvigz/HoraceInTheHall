@@ -11,7 +11,12 @@ export default function Home() {
 
   return (
     <div className="homeBanner">
-      <div className="mainBanner">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="5000"
+        data-aos-easing="ease-in-out"
+        className="mainBanner"
+      >
         <h1>Golden Era ballot.</h1>
         <p>
           At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -21,7 +26,7 @@ export default function Home() {
         </p>
       </div>
       <img
-        data-aos="flip-right"
+        data-aos="fade-left"
         data-aos-duration="5000"
         data-aos-easing="ease-in-out"
         src="https://i.imgur.com/E9px3AA.png"
