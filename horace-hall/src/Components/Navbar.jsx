@@ -4,9 +4,14 @@ import "../Styling/navbar.scss";
 
 export default function Navbar() {
   return (
-    <nav>
-      Hey
-      <NavLink to="#">Hey</NavLink>
-    </nav>
+    <div className="navBar">
+      <img src="https://i.imgur.com/BAWhF2O.png" alt="logo" width="200" />
+      <nav className="links">
+        <NavLink to="#">ABOUT HORACE</NavLink>
+        <NavLink to="#">TIMELINE</NavLink>
+        <NavLink to="#">LEGENDARY NAMES</NavLink>
+        <NavLink to="#">DOCUMENTS & CONTENT</NavLink>
+      </nav>
+    </div>
   );
 }

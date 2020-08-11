@@ -1,3 +1,28 @@
 .homeBanner {
   font-family: "Abril Fatface", cursive;
+  display: flex;
+  justify-content: center;
+
+  .mainBanner {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    h1 {
+      font-family: "Abril Fatface", cursive;
+      font-size: 4.5em;
+      letter-spacing: 2px;
+      line-height: 70px;
+      width: 500px;
+    }
+
+    p {
+      color: #28352e;
+      font-family: "Muli", sans-serif;
+      letter-spacing: 1px;
+      line-height: 35px;
+      margin: 0;
+      padding: 0;
+    }
+  }
 }
