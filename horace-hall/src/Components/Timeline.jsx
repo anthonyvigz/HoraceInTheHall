@@ -21,17 +21,17 @@ export default function Home() {
   return (
     <div className="timelineBlock">
       <div className="leftLine">
-        <TimeCard fade="fade-right" info={timelineData[0]} />
-        <TimeCard fade="fade-right" info={timelineData[0]} />
-        <TimeCard fade="fade-right" info={timelineData[0]} />
-        <TimeCard fade="fade-right" info={timelineData[0]} />
+        <TimeCard fade="fade-up-right" info={timelineData[0]} />
+        <TimeCard fade="fade-up-right" info={timelineData[1]} />
+        <TimeCard fade="fade-up-right" info={timelineData[0]} />
+        <TimeCard fade="fade-up-right" info={timelineData[0]} />
       </div>
       <div style={{ height: scrollTop - 150 }} className="theLine"></div>
       <div className="rightLine">
-        <TimeCard fade="fade-left" info={timelineData[0]} />
-        <TimeCard fade="fade-left" info={timelineData[0]} />
-        <TimeCard fade="fade-left" info={timelineData[0]} />
-        <TimeCard fade="fade-left" info={timelineData[0]} />
+        <TimeCard fade="fade-up-left" info={timelineData[1]} />
+        <TimeCard fade="fade-up-left" info={timelineData[0]} />
+        <TimeCard fade="fade-up-left" info={timelineData[0]} />
+        <TimeCard fade="fade-up-left" info={timelineData[0]} />
       </div>
     </div>
   );

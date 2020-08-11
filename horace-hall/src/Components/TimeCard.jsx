@@ -14,7 +14,9 @@ export default function TimeCard(props) {
       data-aos-easing="ease-in-out"
       className="timeCard"
     >
-      {props.info.year}
+      <h1 className="year">{props.info.year}</h1>
+      <h2 className="title">{props.info.title}</h2>
+      <p className="summary">{props.info.summary}</p>
     </div>
   );
 }
