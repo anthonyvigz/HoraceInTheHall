@@ -30,7 +30,7 @@ export default function Home() {
         data-aos-duration="5000"
         data-aos-easing="ease-in-out"
         src="https://i.imgur.com/E9px3AA.png"
-        width="400"
+        width="425"
         alt="horaceandwillie"
       />
     </div>

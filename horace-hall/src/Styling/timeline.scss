@@ -3,11 +3,22 @@
   height: 3000px;
   display: flex;
 
+  .timeCard {
+    display: flex;
+    width: 360px;
+    height: 170px;
+    background: #fbf5e7;
+    border: solid 4px #28352e;
+    margin-bottom: 200px;
+  }
+
   .leftLine {
     display: flex;
     flex-direction: column;
     height: 5000px;
     width: 50%;
+    align-items: center;
+    margin-top: 100px;
   }
 
   .rightLine {
@@ -15,6 +26,8 @@
     flex-direction: column;
     height: 5000px;
     width: 50%;
+    align-items: center;
+    margin-top: 200px;
   }
 
   // this is the state changing timeline
