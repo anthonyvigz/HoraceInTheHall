@@ -61,5 +61,14 @@
     border-right: solid #28352e 6px;
     border-radius: 15px;
     width: 0;
+    position: relative;
+
+    img {
+      position: absolute;
+      bottom: -40px;
+      width: 70px;
+      right: 0;
+      left: -33px;
+    }
   }
 }

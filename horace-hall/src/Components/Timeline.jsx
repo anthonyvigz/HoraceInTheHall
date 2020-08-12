@@ -26,7 +26,13 @@ export default function Home() {
         <TimeCard fade="fade-up-right" info={timelineData[0]} />
         <TimeCard fade="fade-up-right" info={timelineData[0]} />
       </div>
-      <div style={{ height: scrollTop - 150 }} className="theLine"></div>
+      <div style={{ height: scrollTop - 150 }} className="theLine">
+        <img
+          src="https://i.imgur.com/XQW7ywC.png"
+          alt="spinball"
+          style={{ transform: `rotate(${scrollTop / 4}deg)` }}
+        />
+      </div>
       <div className="rightLine">
         <TimeCard fade="fade-up-left" info={timelineData[1]} />
         <TimeCard fade="fade-up-left" info={timelineData[0]} />
