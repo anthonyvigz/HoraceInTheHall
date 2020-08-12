@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: -75px;
+  margin-top: -75px;
+
+  img {
+    border: solid 5px #28352e;
+    z-index: 5;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 5px;
+  }
+
+  img:hover {
+    border: solid 5px #ffbd66;
+    transition: 1s;
+  }
+}

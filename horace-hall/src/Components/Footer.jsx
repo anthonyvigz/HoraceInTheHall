@@ -17,11 +17,8 @@ export default function Footer() {
       />
       <img
         onClick={() => openModal(true)}
-        data-aos="fade-left"
-        data-aos-duration="5000"
-        data-aos-easing="ease-in-out"
         src="https://i.imgur.com/dxdkkuF.jpg"
-        width="425"
+        width="285"
         alt="youtubeimage"
       />
     </div>

@@ -23,6 +23,11 @@
       line-height: 35px;
       margin: 0;
       padding: 0;
+      z-index: -2;
     }
+  }
+
+  img {
+    z-index: -1;
   }
 }
