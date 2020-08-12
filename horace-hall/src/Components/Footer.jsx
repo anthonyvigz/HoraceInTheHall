@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../Styling/footer.scss";
 import ModalVideo from "react-modal-video";
+import "../Styling/modal-video.scss";
 
 export default function Footer() {
   const [isOpen, openModal] = useState(false);
