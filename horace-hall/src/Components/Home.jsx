@@ -3,14 +3,11 @@ import "../Styling/home.scss";
 // import { Parallax, Background } from "react-parallax";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import ModalVideo from "react-modal-video";
 
 export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
-
-  const [isOpen, openModal] = useState(false);
 
   return (
     <div className="homeBanner">
@@ -36,24 +33,6 @@ export default function Home() {
         width="425"
         alt="horaceandwillie"
       />
-      <div className="footer">
-        <ModalVideo
-          channel="youtube"
-          allowFullScreen={true}
-          isOpen={isOpen}
-          videoId="MHaRGo0KagE"
-          onClose={() => openModal(false)}
-        />
-        <img
-          onClick={() => openModal(true)}
-          data-aos="fade-left"
-          data-aos-duration="5000"
-          data-aos-easing="ease-in-out"
-          src="https://i.imgur.com/dxdkkuF.jpg"
-          width="425"
-          alt="youtubeimage"
-        />
-      </div>
     </div>
   );
 }
