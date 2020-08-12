@@ -13,7 +13,7 @@
       font-size: 4.5em;
       letter-spacing: 2px;
       line-height: 70px;
-      width: 500px;
+      width: 700px;
     }
 
     p {
@@ -29,5 +29,13 @@
 
   img {
     z-index: -1;
+  }
+}
+
+// Tablet
+@media (max-width: 1090px) {
+  .homeBanner {
+    h1 {
+    }
   }
 }

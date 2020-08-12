@@ -22,9 +22,9 @@ export default function Home() {
     <div className="timelineBlock">
       <div className="leftLine">
         <TimeCard fade="fade-up-right" info={timelineData[0]} />
-        <TimeCard fade="fade-up-right" info={timelineData[1]} />
-        <TimeCard fade="fade-up-right" info={timelineData[0]} />
-        <TimeCard fade="fade-up-right" info={timelineData[0]} />
+        <TimeCard fade="fade-up-right" info={timelineData[2]} />
+        <TimeCard fade="fade-up-right" info={timelineData[4]} />
+        <TimeCard fade="fade-up-right" info={timelineData[6]} />
       </div>
       <div style={{ height: scrollTop - 150 }} className="theLine">
         <img
@@ -35,9 +35,9 @@ export default function Home() {
       </div>
       <div className="rightLine">
         <TimeCard fade="fade-up-left" info={timelineData[1]} />
-        <TimeCard fade="fade-up-left" info={timelineData[0]} />
-        <TimeCard fade="fade-up-left" info={timelineData[0]} />
-        <TimeCard fade="fade-up-left" info={timelineData[0]} />
+        <TimeCard fade="fade-up-left" info={timelineData[3]} />
+        <TimeCard fade="fade-up-left" info={timelineData[5]} />
+        <TimeCard fade="fade-up-left" info={timelineData[7]} />
       </div>
     </div>
   );

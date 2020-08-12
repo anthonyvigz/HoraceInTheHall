@@ -17,6 +17,12 @@ export default function TimeCard(props) {
       <h1 className="year">{props.info.year}</h1>
       <h2 className="title">{props.info.title}</h2>
       <p className="summary">{props.info.summary}</p>
+      <img
+        style={{ bottom: props.info.bottom, left: props.info.left }}
+        src={props.info.img}
+        alt={props.info.title}
+        width="350px"
+      />
     </div>
   );
 }

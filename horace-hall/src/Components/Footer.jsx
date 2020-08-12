@@ -16,6 +16,7 @@ export default function Footer() {
         videoId="MHaRGo0KagE"
         onClose={() => openModal(false)}
       />
+      <h3>A baseball icon with legendary history...</h3>
       <img
         onClick={() => openModal(true)}
         src="https://i.imgur.com/dxdkkuF.jpg"

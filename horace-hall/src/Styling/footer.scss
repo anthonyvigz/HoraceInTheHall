@@ -2,9 +2,19 @@
   display: flex;
   bottom: 0;
   width: 100%;
-  justify-content: center;
   margin-bottom: -75px;
-  margin-top: -75px;
+  margin-top: -95px;
+  flex-direction: column;
+
+  h3 {
+    font-family: "Abril Fatface", cursive;
+    letter-spacing: 1.5px;
+    line-height: 70px;
+    width: 500px;
+    color: #28352e;
+    margin-left: 25px;
+    position: absolute;
+  }
 
   img {
     border: solid 5px #28352e;
@@ -12,6 +22,7 @@
     cursor: pointer;
     transition: 1s;
     border-radius: 5px;
+    margin: 0 auto;
   }
 
   img:hover {

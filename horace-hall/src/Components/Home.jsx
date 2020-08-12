@@ -17,7 +17,7 @@ export default function Home() {
         data-aos-easing="ease-in-out"
         className="mainBanner"
       >
-        <h1>Golden Era ballot.</h1>
+        <h1>Horace Stoneham golden ballot.</h1>
         <p>
           At vero eos et accusamus et iusto odio dignissimos ducimus qui
           blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
