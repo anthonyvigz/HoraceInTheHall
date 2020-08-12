@@ -13,16 +13,11 @@ export default function TimeCard(props) {
       data-aos-duration="700"
       data-aos-easing="ease-in-out"
       className="timeCard"
+      style={{ margin: props.info.margin, zIndex: props.info.z }}
     >
       <h1 className="year">{props.info.year}</h1>
       <h2 className="title">{props.info.title}</h2>
       <p className="summary">{props.info.summary}</p>
-      <img
-        style={{ bottom: props.info.bottom, left: props.info.left }}
-        src={props.info.img}
-        alt={props.info.title}
-        width="350px"
-      />
     </div>
   );
 }

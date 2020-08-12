@@ -6,8 +6,8 @@
 
   .timeCard {
     display: flex;
-    width: 360px;
-    height: 170px;
+    width: 380px;
+    height: 200px;
     background: #fbf5e7;
     border: solid 4px #28352e;
     margin-bottom: 200px;
@@ -33,13 +33,20 @@
 
     .summary {
       margin: 0;
-      padding: 0;
+      padding: 5px 15px 10px 15px;
       font-family: "Muli", sans-serif;
       letter-spacing: 1px;
+      font-size: 0.8em;
+      line-height: 18px;
     }
+  }
 
+  .imageCard {
+    position: relative;
     img {
       position: absolute;
+      margin: 0;
+      padding: 0;
     }
   }
 

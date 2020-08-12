@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "../Styling/timeline.scss";
 import TimeCard from "./TimeCard";
-import { timelineData } from "./data";
+import ImageCard from "./ImageCard";
+import { timelineData, imageData } from "./data";
 import { Parallax } from "react-parallax";
 
 export default function Home() {
@@ -22,9 +23,13 @@ export default function Home() {
     <div className="timelineBlock">
       <div className="leftLine">
         <TimeCard fade="fade-up-right" info={timelineData[0]} />
+        <ImageCard image={imageData[0]} />
         <TimeCard fade="fade-up-right" info={timelineData[2]} />
+        <ImageCard image={imageData[2]} />
         <TimeCard fade="fade-up-right" info={timelineData[4]} />
+        <ImageCard image={imageData[4]} />
         <TimeCard fade="fade-up-right" info={timelineData[6]} />
+        <ImageCard image={imageData[6]} />
       </div>
       <div style={{ height: scrollTop - 150 }} className="theLine">
         <img
@@ -35,9 +40,13 @@ export default function Home() {
       </div>
       <div className="rightLine">
         <TimeCard fade="fade-up-left" info={timelineData[1]} />
+        <ImageCard image={imageData[1]} />
         <TimeCard fade="fade-up-left" info={timelineData[3]} />
+        <ImageCard image={imageData[3]} />
         <TimeCard fade="fade-up-left" info={timelineData[5]} />
+        <ImageCard image={imageData[5]} />
         <TimeCard fade="fade-up-left" info={timelineData[7]} />
+        <ImageCard image={imageData[7]} />
       </div>
     </div>
   );
