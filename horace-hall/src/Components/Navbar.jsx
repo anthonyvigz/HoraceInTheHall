@@ -1,15 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../Styling/navbar.scss";
+import "../Styling/namesModal.scss";
+import { Modal } from "react-responsive-modal";
 
 export default function Navbar() {
+  const [modal, openModal] = useState(false);
+
   return (
     <div className="navBar">
       <img src="https://i.imgur.com/ndX65Iz.png" alt="logo" width="200" />
       <nav className="links">
         <NavLink to="#">ABOUT HORACE</NavLink>
         <NavLink to="#">TIMELINE</NavLink>
-        <NavLink to="#">LEGENDARY NAMES</NavLink>
+        <NavLink to="#" onClick={() => openModal(true)}>
+          LEGENDARY NAMES
+        </NavLink>
         <NavLink
           style={{
             border: "1px solid #28352e",
@@ -21,6 +27,14 @@ export default function Navbar() {
           DOCUMENTS & CONTENT
         </NavLink>
       </nav>
+      <Modal
+        open={modal}
+        onClose={() => openModal(false)}
+        blockScroll={false}
+        center
+      >
+        <h2>hey</h2>
+      </Modal>
     </div>
   );
 }
