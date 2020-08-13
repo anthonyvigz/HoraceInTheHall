@@ -13,16 +13,15 @@ export default function TimeCard(props) {
       //   data-aos-duration="700"
       //   data-aos-easing="ease-in-out"
       className="imageCard"
+      style={{
+        zIndex: props.image.z,
+        top: props.image.top,
+        left: props.image.left,
+      }}
     >
       <img
         src={props.image.img}
         width={props.image.width}
-        style={{
-          margin: props.image.margin,
-          zIndex: props.image.z,
-          top: props.image.top,
-          left: props.image.left,
-        }}
         alt={props.image.img}
       />
     </div>
