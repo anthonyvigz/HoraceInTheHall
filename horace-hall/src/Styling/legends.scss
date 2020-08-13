@@ -1,0 +1,66 @@
+.legends {
+  display: flex;
+  background: #e7c983;
+
+  .legendBlock {
+    display: flex;
+    background: #e7c983;
+    width: 500px;
+    margin: 15px;
+    flex-direction: column;
+
+    .yearName {
+      font-family: "Abril Fatface", cursive;
+      font-size: 2.2em;
+      color: #28352e;
+      margin: 0;
+      margin-bottom: 15px;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.253);
+      width: 150px;
+    }
+
+    .names {
+      margin-left: 20px;
+      margin-bottom: 15px;
+      h3 {
+        color: #28352e;
+        font-family: "Muli", sans-serif;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin: 0;
+        padding: 0;
+        z-index: -2;
+        font-size: 1em;
+      }
+    }
+  }
+
+  img {
+    width: 130px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    opacity: 0.8;
+  }
+
+  .titleBlock {
+    position: fixed;
+    margin-top: -125px;
+    margin-left: 265px;
+    font-family: "Abril Fatface", cursive;
+
+    h1 {
+      color: white;
+      font-size: 1.2em;
+      font-family: "Muli", sans-serif;
+      letter-spacing: 1.5px;
+      margin-left: -50px;
+      margin-bottom: -50px;
+    }
+
+    h2 {
+      color: rgba(255, 249, 230, 0.938);
+      font-size: 3.2em;
+    }
+  }
+}

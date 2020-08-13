@@ -9,9 +9,9 @@ export default function TimeCard(props) {
   }, []);
   return (
     <div
-      //   data-aos={props.fade}
-      //   data-aos-duration="700"
-      //   data-aos-easing="ease-in-out"
+      data-aos={props.fade}
+      data-aos-duration="700"
+      data-aos-easing="ease-in-out"
       className="imageCard"
       style={{
         zIndex: props.image.z,

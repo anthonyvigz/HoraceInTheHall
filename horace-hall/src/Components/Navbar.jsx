@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../Styling/navbar.scss";
 import "../Styling/namesModal.scss";
 import { Modal } from "react-responsive-modal";
+import Legends from "./Legends";
 
 export default function Navbar() {
   const [modal, openModal] = useState(false);
@@ -33,7 +34,7 @@ export default function Navbar() {
         blockScroll={false}
         center
       >
-        <h2>hey</h2>
+        <Legends />
       </Modal>
     </div>
   );

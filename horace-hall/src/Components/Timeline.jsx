@@ -22,14 +22,14 @@ export default function Home() {
   return (
     <div className="timelineBlock">
       <div className="leftLine">
-        <TimeCard fade="fade-up-right" info={timelineData[0]} />
-        <ImageCard image={imageData[0]} />
-        <TimeCard fade="fade-up-right" info={timelineData[2]} />
-        <ImageCard image={imageData[2]} />
-        <TimeCard fade="fade-up-right" info={timelineData[4]} />
-        <ImageCard image={imageData[4]} />
-        <TimeCard fade="fade-up-right" info={timelineData[6]} />
-        <ImageCard image={imageData[6]} />
+        <TimeCard fade="flip-up" info={timelineData[0]} />
+        <ImageCard fade="fade-up-right" image={imageData[0]} />
+        <TimeCard fade="flip-up" info={timelineData[2]} />
+        <ImageCard fade="fade-up-right" image={imageData[2]} />
+        <TimeCard fade="flip-up" info={timelineData[4]} />
+        <ImageCard fade="fade-up-right" image={imageData[4]} />
+        <TimeCard fade="flip-up" info={timelineData[6]} />
+        <ImageCard fade="fade-up-right" image={imageData[6]} />
       </div>
       <div style={{ height: scrollTop - 150 }} className="theLine">
         <img
@@ -39,14 +39,14 @@ export default function Home() {
         />
       </div>
       <div className="rightLine">
-        <TimeCard fade="fade-up-left" info={timelineData[1]} />
-        <ImageCard image={imageData[1]} />
-        <TimeCard fade="fade-up-left" info={timelineData[3]} />
-        <ImageCard image={imageData[3]} />
-        <TimeCard fade="fade-up-left" info={timelineData[5]} />
-        <ImageCard image={imageData[5]} />
-        <TimeCard fade="fade-up-left" info={timelineData[7]} />
-        <ImageCard image={imageData[7]} />
+        <TimeCard fade="flip-up" info={timelineData[1]} />
+        <ImageCard fade="fade-up-left" image={imageData[1]} />
+        <TimeCard fade="flip-up" info={timelineData[3]} />
+        <ImageCard fade="fade-up-left" image={imageData[3]} />
+        <TimeCard fade="flip-up" info={timelineData[5]} />
+        <ImageCard fade="fade-up-left" image={imageData[5]} />
+        <TimeCard fade="flip-up" info={timelineData[7]} />
+        <ImageCard fade="fade-up-left" image={imageData[7]} />
       </div>
     </div>
   );
